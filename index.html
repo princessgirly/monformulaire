@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang=fr>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mon Formulaire</title>
+  <meta name="description" content="" />
+  <meta name="robots" content="" />
+  <link rel="stylesheet" type="text/css" href="formulaire.css" media="screen" />
+</head>
+
+<body>
+
+  <main>
+  <div id="container">
+
+              <div class="texte">
+                <h1 class="bloc1" id="bloc1">Mon Formulaire</h1>
+              </div>
+              <div class="formulaire">
+
+                  <form action="testformulaire_post.php" method="post" >
+                    <p>
+                      <p><label>Votre pseudo : <input type="text" name="pseudo" id="pseudo"/></label></p>
+                      <p><label>Votre téléphone : <input type="tel" name="telephone" id="telephone"/></label></p>
+                      <p><label>Votre adresse mail : <input type="email" name="email" placeholder="chuck.bass@mail.com" id="mail" /></label></p>
+                      <p style="color:white">Qu'aimeriez-vous trouver sur notre site comme article, produit, accessoire, tenue, lingerie... ?</p>
+                          <p><textarea name="message" rows="4" cols="100"></textarea></p>
+                          <p><input type="submit" id="valider"/></p>
+                  </form>
+              </div>
+  </div>
+
+</main>
+</body>
+</html>
