@@ -7,3 +7,9 @@ html, body {
   form {
   text-align: center;
   }
+  .texte, .formulaire {
+  text-align: center;
+  }
+  .texte {
+    margin-top: 10%;
+  }
